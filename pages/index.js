@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <Center h="full">
       <VStack>
-        <HStack>
+        <HStack mt={4}>
           <Text>Darkmode Button</Text>
           <IconButton mt={4} aria-label="Toggle Mode" onClick={toggleColorMode}>
             {colorMode === "light" ? <MoonIcon /> : <SunIcon />}
